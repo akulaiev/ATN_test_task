@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Create Pet View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Create Pet View Controller" customClass="CreatePetViewController" customModule="ATN_test_task" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jvg-pA-sM7" customClass="PetPickerView" customModule="ATN_test_task" customModuleProvider="target">
+                                <rect key="frame" x="50" y="202.5" width="314" height="312"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz8-Mf-V9U">
+                                <rect key="frame" x="168.5" y="794" width="77" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.1741745298271937" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Create pet!"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="createPetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cKP-WM-CMa"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nt7-mr-55R" customClass="ChosenPetView" customModule="ATN_test_task" customModuleProvider="target">
+                                <rect key="frame" x="11" y="635" width="392.5" height="128"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNR-CZ-3IR" customClass="TextfieldWithDoneView" customModule="ATN_test_task" customModuleProvider="target">
+                                <rect key="frame" x="50" y="114" width="314" height="56"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2f-uk-fUN" customClass="TextfieldWithDoneView" customModule="ATN_test_task" customModuleProvider="target">
+                                <rect key="frame" x="50" y="553" width="314" height="56"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bNR-CZ-3IR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2Xb-bb-www"/>
+                            <constraint firstItem="Jvg-pA-sM7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.758454" id="3vr-hi-39g"/>
+                            <constraint firstItem="nt7-mr-55R" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="6f7-ze-R4e"/>
+                            <constraint firstItem="d2f-uk-fUN" firstAttribute="width" secondItem="bNR-CZ-3IR" secondAttribute="width" id="AdM-vX-lWM"/>
+                            <constraint firstItem="bNR-CZ-3IR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.758454" id="EaL-JU-0dh"/>
+                            <constraint firstItem="Jvg-pA-sM7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ISZ-BL-cQm"/>
+                            <constraint firstItem="Jvg-pA-sM7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.8" id="IbA-Or-PSa"/>
+                            <constraint firstItem="d2f-uk-fUN" firstAttribute="centerX" secondItem="bNR-CZ-3IR" secondAttribute="centerX" id="JTI-e0-HMY"/>
+                            <constraint firstItem="Jvg-pA-sM7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.348214" id="Qni-L1-kwc"/>
+                            <constraint firstItem="d2f-uk-fUN" firstAttribute="top" secondItem="Jvg-pA-sM7" secondAttribute="bottom" constant="38.5" id="RRU-mh-tkv"/>
+                            <constraint firstItem="d2f-uk-fUN" firstAttribute="height" secondItem="bNR-CZ-3IR" secondAttribute="height" id="RW0-fd-Lqd"/>
+                            <constraint firstItem="nt7-mr-55R" firstAttribute="width" secondItem="Jvg-pA-sM7" secondAttribute="width" multiplier="1.25" id="SwW-vc-o1d"/>
+                            <constraint firstItem="zz8-Mf-V9U" firstAttribute="top" secondItem="nt7-mr-55R" secondAttribute="bottom" constant="31" id="aSk-EE-TAR"/>
+                            <constraint firstItem="zz8-Mf-V9U" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.18599" id="cVB-9C-BmT"/>
+                            <constraint firstItem="nt7-mr-55R" firstAttribute="centerX" secondItem="Jvg-pA-sM7" secondAttribute="centerX" id="fff-ht-yGo"/>
+                            <constraint firstItem="bNR-CZ-3IR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="fzn-9n-Kab"/>
+                            <constraint firstItem="zz8-Mf-V9U" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jZZ-X5-g6d"/>
+                            <constraint firstItem="nt7-mr-55R" firstAttribute="top" secondItem="d2f-uk-fUN" secondAttribute="bottom" constant="26" id="xtt-cK-ND8"/>
+                            <constraint firstItem="bNR-CZ-3IR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0625" id="yAN-bM-z3s"/>
+                            <constraint firstItem="zz8-Mf-V9U" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0334821" id="yCw-Oy-ein"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chosenPetView" destination="nt7-mr-55R" id="7Av-TR-GA4"/>
+                        <outlet property="createPetButton" destination="zz8-Mf-V9U" id="1iO-OD-1rI"/>
+                        <outlet property="customPetTypeTextField" destination="d2f-uk-fUN" id="teS-H1-D1P"/>
+                        <outlet property="petNameTextField" destination="bNR-CZ-3IR" id="Q1n-9c-SUW"/>
+                        <outlet property="petTypePickerView" destination="Jvg-pA-sM7" id="4AL-xd-3GZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.855072463768124" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

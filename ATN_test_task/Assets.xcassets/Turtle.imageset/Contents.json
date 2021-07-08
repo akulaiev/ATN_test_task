@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Florida_Box_Turtle_Digon3_re-edited.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Florida_Box_Turtle_Digon3_re-edited@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Florida_Box_Turtle_Digon3_re-edited@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
