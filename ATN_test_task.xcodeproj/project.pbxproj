@@ -16,7 +16,6 @@
 		2DBAB20D2691C28E008F40C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAB20B2691C28E008F40C5 /* Main.storyboard */; };
 		2DBAB20F2691C28F008F40C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAB20E2691C28F008F40C5 /* Assets.xcassets */; };
 		2DBAB2122691C28F008F40C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAB2102691C28F008F40C5 /* LaunchScreen.storyboard */; };
-		2DBAB2222692287C008F40C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAB2212692287C008F40C5 /* GoogleService-Info.plist */; };
 		2DBAB2462692459A008F40C5 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAB2452692459A008F40C5 /* Pet.swift */; };
 		2DBAB25326937EB5008F40C5 /* PetPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAB25126937EB5008F40C5 /* PetPickerView.swift */; };
 		2DBAB25426937EB5008F40C5 /* PetPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAB25226937EB5008F40C5 /* PetPickerView.xib */; };
@@ -40,7 +39,6 @@
 		2DBAB20E2691C28F008F40C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DBAB2112691C28F008F40C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DBAB2132691C28F008F40C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DBAB2212692287C008F40C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DBAB2452692459A008F40C5 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		2DBAB25126937EB5008F40C5 /* PetPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetPickerView.swift; sourceTree = "<group>"; };
 		2DBAB25226937EB5008F40C5 /* PetPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PetPickerView.xib; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				2DBAB2052691C28E008F40C5 /* AppDelegate.swift */,
 				2DBAB20E2691C28F008F40C5 /* Assets.xcassets */,
 				2DBAB2132691C28F008F40C5 /* Info.plist */,
-				2DBAB2212692287C008F40C5 /* GoogleService-Info.plist */,
 			);
 			path = ATN_test_task;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 				2DCBD9B9269442BC00904C3E /* ChosenPetView.xib in Resources */,
 				2DBAB25426937EB5008F40C5 /* PetPickerView.xib in Resources */,
 				2DBAB2122691C28F008F40C5 /* LaunchScreen.storyboard in Resources */,
-				2DBAB2222692287C008F40C5 /* GoogleService-Info.plist in Resources */,
 				2DCBD9BE2695EA4F00904C3E /* TextfieldWithDoneView.xib in Resources */,
 				2DBAB20F2691C28F008F40C5 /* Assets.xcassets in Resources */,
 				2DBAB20D2691C28E008F40C5 /* Main.storyboard in Resources */,
